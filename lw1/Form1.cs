@@ -24,7 +24,6 @@ namespace lw1
 
         private void btnCreateNew_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(1);
             if (emblemsCount >= 99)
             {
                 MessageBox.Show("Досягнуто межі кількості об'єктів!");
